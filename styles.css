@@ -170,3 +170,56 @@ body {
     }
   
   }
+
+  /* Responsive styles for small devices */
+@media (max-width: 768px) {
+    .hero-horizontal-line::after {
+      width: 150px;
+      margin-left: 20px;
+    }
+  
+    .image-grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(10, 250px);
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  
+    .navbar-custom {
+      padding: 5px;
+    }
+  
+    .nav-link {
+      padding: 5px 0;
+      font-size: 14px;
+    }
+  
+    .navbar-collapse {
+      text-align: center; 
+    }
+  
+  
+    .navbar-nav .nav-item {
+      margin: 10px 0; 
+    }
+  
+  
+    .col-half,
+    .col-quarter {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    #button {
+      padding: 8px 20px;
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+}
