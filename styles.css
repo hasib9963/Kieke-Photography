@@ -109,3 +109,25 @@ body {
   .image-item {
     overflow: hidden;
   }
+
+  /* button style section  */
+#button {
+    background-color: #fe8c45;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #button:hover {
+    background-color: black;
+    color: #fe8c45;
+  }
+  
+  .btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .client {
+    background-color: #8a47f6;
+  }
+  
