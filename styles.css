@@ -24,3 +24,20 @@ body {
   li {
     font-family: "Quicksand", sans-serif;
   }
+
+  /* hero section style  */
+#hero-horizontal-line {
+    font-size: 80px;
+    margin-bottom: 44px;
+  }
+  
+  #hero-horizontal-line::after {
+    content: "";
+    display: inline-block;
+    width: 300px;
+    height: 10px;
+    background-color: #8a47f6;
+    border-radius: 20px;
+    margin-left: 150px;
+    vertical-align: middle;
+  }
